@@ -18,11 +18,14 @@ $('.loop').owlCarousel({
 });
 $('.brand').owlCarousel({
     center:true,
-    items:2,
+    items:1,
     loop:true,
     margin:30,
 	autoplay:true,
     responsive:{
+		0:{
+			items:1
+		},
         600:{
             items:3
         }
